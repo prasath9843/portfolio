@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prasath S | Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* ===== GLOBAL ===== */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0b0f19;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 80px 20px;
+    }
+
+    h1, h2, h3 {
+      color: #ffffff;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #cbd5f5;
+    }
+
+    /* ===== HERO ===== */
+    header {
+      min-height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      font-size: 52px;
+      font-weight: 700;
+    }
+
+    header span {
+      color: #60a5fa;
+    }
+
+    header p {
+      font-size: 20px;
+      margin-top: 15px;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* ===== CARD GRID ===== */
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+      margin-top: 40px;
+    }
+
+    /* ===== CARD ===== */
+    .card {
+      background: #111827;
+      border-radius: 16px;
+      padding: 24px;
+      border: 1px solid #1f2937;
+      transition: all 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      border-color: #60a5fa;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+    /* ===== CONTACT ===== */
+    .contact a {
+      display: block;
+      margin: 12px 0;
+      color: #60a5fa;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      text-align: center;
+      padding: 30px;
+      border-top: 1px solid #1f2937;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== HERO ===== -->
+  <header>
+    <div>
+      <h1>Hi, I’m <span>Prasath S</span></h1>
+      <p>
+        Computer Science Engineering (AI & ML) student who loves problem solving,
+        building IoT projects, and learning modern web technologies.
+      </p>
+    </div>
+  </header>
+
+  <!-- ===== ABOUT ===== -->
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I am a Computer Science Engineering student specializing in Artificial Intelligence and Machine Learning
+      at Sri Krishna College of Technology. I enjoy solving coding problems, working on IoT-based systems,
+      and building clean, user-friendly web applications.
+    </p>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section>
+    <h2>Skills</h2>
+    <div class="card-container">
+      <div class="card">C++</div>
+      <div class="card">Python (Intermediate)</div>
+      <div class="card">Java (Basic)</div>
+      <div class="card">HTML & CSS</div>
+      <div class="card">React JS (Basics)</div>
+      <div class="card">MySQL</div>
+      <div class="card">ESP8266</div>
+      <div class="card">Ultrasonic Sensors</div>
+      <div class="card">Relay Modules</div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section>
+    <h2>Projects</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Smart Home Automation</h3>
+        <p>IoT-based system using ESP8266 and relay modules to automate home appliances.</p>
+      </div>
+      <div class="card">
+        <h3>Automatic Public Restroom Cleaner</h3>
+        <p>Automated hygiene system using ultrasonic sensors and embedded components.</p>
+      </div>
+      <div class="card">
+        <h3>Web Development Projects</h3>
+        <p>Responsive websites built using HTML, CSS, and basic React concepts.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ACHIEVEMENTS ===== -->
+  <section>
+    <h2>Achievements</h2>
+    <div class="card-container">
+      <div class="card">Solved 60+ problems on LeetCode</div>
+      <div class="card">Strong interest in Data Structures & Algorithms</div>
+      <div class="card">Active competitive programming learner</div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section>
+    <h2>Education</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>B.E – Computer Science Engineering (AI & ML)</h3>
+        <p>Sri Krishna College of Technology</p>
+        <p>2024 – 2028</p>
+      </div>
+      <div class="card">
+        <h3>Schooling</h3>
+        <p>Agaram Public School</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESUME ===== -->
+  <section>
+    <h2>Resume</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>View Resume</h3>
+        <p>You can view my resume directly in the browser.</p>
+        <a href="resume.pdf" target="_blank" style="color:#60a5fa; text-decoration:none; font-weight:500;">📄 View Resume</a>
+      </div>
+      <div class="card">
+        <h3>Download Resume</h3>
+        <p>You can download my resume as a PDF file.</p>
+        <a href="resume.pdf" download style="color:#60a5fa; text-decoration:none; font-weight:500;">⬇️ Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact">
+    <h2>Contact</h2>
+    <a href="mailto:prasathsubramani8098@gmail.com">📧 prasathsubramani8098@gmail.com</a>
+    <a href="https://github.com/prasath9843" target="_blank">💻 github.com/prasath9843</a>
+    <a href="#">🔗 LinkedIn: Prasath Subramani</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Prasath S</p>
+  </footer>
+
+</body>
+</html>
